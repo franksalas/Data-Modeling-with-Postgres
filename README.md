@@ -45,7 +45,7 @@ log_data/2018/11/2018-11-13-events.json
 ```
 
 ## Example
-![events json](img/eventsjson.png)
+![events json](img/eventsjson.PNG)
 
 ## Schema
 Given the results from `explore_data.ipynb`, Ive created a star schema.
@@ -84,7 +84,7 @@ SELECT *
 FROM artists
 WHERE location LIKE '%TX%';
 ```
-![texas reslut](img/txresult.png)
+![texas reslut](img/txresult.PNG)
 
 
 
@@ -95,7 +95,7 @@ FROM users
 WHERE last_name LIKE '%Smith%';
 ```
 
-![smith reslut](img/smithresult.png)
+![smith reslut](img/smithresult.PNG)
 
 
 ## Files
