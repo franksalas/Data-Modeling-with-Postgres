@@ -45,14 +45,16 @@ log_data/2018/11/2018-11-13-events.json
 ```
 
 ## Example
-![events json](img/eventsjson.PNG)
+
+![](https://i.imgur.com/3tUJ76X.png)
+
 
 ## Schema
 Given the results from `explore_data.ipynb`, Ive created a star schema.
 
 
 ![img/schema_img.png](img/schema.png)
-  
+
 
 ## ETL Pipeline
 
@@ -84,8 +86,7 @@ SELECT *
 FROM artists
 WHERE location LIKE '%TX%';
 ```
-![texas reslut](img/txresult.PNG)
-
+![](https://i.imgur.com/DOkjjyV.png)
 
 
 #### Show all the users with last name `Smith`
@@ -95,8 +96,8 @@ FROM users
 WHERE last_name LIKE '%Smith%';
 ```
 
-![smith reslut](img/smithresult.PNG)
 
+![](https://i.imgur.com/Kb9W4bC.png)
 
 ## Files
 1. `test.ipynb` displays the first few rows of each table to let you check your database.
